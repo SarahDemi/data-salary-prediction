@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CatBoost writes this on every fit
+catboost_info/
+
+# working file used to send the notebook for review
+notebook_text.json
